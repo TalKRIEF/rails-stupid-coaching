@@ -17,19 +17,23 @@
 body {
 font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Slab', serif;
+padding: 10px;
 }
 
 .answer {
-  border-left: 2px solid grey;
-  background-color: antiquewhite;
+  /* border-left: 2px solid grey; */
+  border-left: 0.5rem solid #b5b5b5;
+  background-color: #f5f5bd;
   padding: 10px;
-  border-radius: 10px;
-  width: auto;
+  padding-left: 20px;
+  width: 500px;
   height: auto;
 }
 
 .question {
   padding: 10px;
+  padding-left: 20px;
+  border-left: 0.5rem solid #b5b5b5;
 }
 
 .link {
