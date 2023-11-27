@@ -13,3 +13,25 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+}
+
+.answer {
+  border-left: 2px solid grey;
+  background-color: antiquewhite;
+  padding: 10px;
+  border-radius: 10px;
+  width: auto;
+  height: auto;
+}
+
+.question {
+  padding: 10px;
+}
+
+.link {
+  font-size: small;
+}
